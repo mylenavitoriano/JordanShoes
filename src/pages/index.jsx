@@ -1,5 +1,6 @@
 import styles from '../../styles/style.module.scss'
 import CardJordan from '../components/CardJordan'
+import Head from 'next/head';
 
 export default function Home() {
   return (
