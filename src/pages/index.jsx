@@ -4,10 +4,14 @@ import CardJordan from '../components/CardJordan'
 export default function Home() {
   return (
     <>
+
+      <Head>
+          <title>Jordan Shoes</title>
+      </Head>
+
       <header className={styles.header}>
         <div className={styles.faixaPreta}>Ganhe R$ 10,00 de desconto no frete</div>
         <div className={styles.faixaBranca}>JordanShoes</div>
-        
       </header>
     
       <main>
